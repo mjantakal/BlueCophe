@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import '../CSS/NavbarPage.css';
+import '../components/HomePage';
 
 
 class NavbarPage extends Component {
@@ -25,7 +26,7 @@ class NavbarPage extends Component {
             </Nav>
             <Nav>
               <Nav.Link href="#HomePage">Home</Nav.Link>
-              <Nav.Link href="#Blog">Blog</Nav.Link>
+              <Nav.Link href="#BlogPage">Blog</Nav.Link>
               <Nav.Link href="#Email">E-mail us</Nav.Link>
               <Nav.Link href="#News">News</Nav.Link>
             </Nav>
