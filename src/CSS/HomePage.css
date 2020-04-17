@@ -1,0 +1,70 @@
+
+@font-face{
+    font-family: 'Rancho', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+}
+.header-top{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 1% ;
+}   
+
+.header-top h6{
+    float: none;
+    color: red;
+}
+.banner{
+    height: 60vh;
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    background-image: url("../Images/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:monospace;
+    color: white;
+    position: relative;
+    
+}
+.banner-content{
+    position: absolute;
+    bottom: 0;
+    padding: 60px;
+}
+.banner-content h3{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin-right: 40vh;
+    font-size: 34px;
+}
+.banner-content h5{
+    font-size: x-large;
+    margin-right: 30vh;
+}
+.signin-tab{
+    width: 60%;
+    margin: auto;
+    padding-top:40px ;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    font-family:monospace;
+    color: black;
+
+}
+.blog-container{
+    width: 60%;
+    margin: auto;
+}
+.blog-image{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    margin-bottom: 70px;
+
+}
