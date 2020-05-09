@@ -79,7 +79,7 @@ class BlogPage extends Component {
       }
 
       return (<div>
-        <NavbarPage></NavbarPage>
+        <NavbarPage  page="blogPage"></NavbarPage>
         <div className="blog-container">
           <div className="article-details">
             <h3 >{title}</h3>

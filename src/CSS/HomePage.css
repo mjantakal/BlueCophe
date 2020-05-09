@@ -10,30 +10,27 @@
 }
 
 .signin-tab {
-    width: 60%;
+    width: 80%;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 2%;
     padding-top: 40px;
     padding-bottom: 20px;
     font-family: 'Roboto Slab', serif;
-
-
 }
 
 .blog-container {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
 .blog-image {
-
     /* height: 250px; */
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
 }
 
-.featured-img{
+.featured-img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -49,15 +46,11 @@
 .div-posts:hover {
     top: -5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
 }
 
 .row {
     margin-bottom: 10vh;
-
 }
-
 
 .col-sm-4 {
     border: gray;
@@ -82,22 +75,24 @@
     font-weight: 200;
     line-height: 1.6;
     max-lines: 5;
-    
-
-
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 .insights {
     padding: 20px;
     color: gray;
-
 }
 
 .insights h6 {
     float: left;
     font-family: 'Muli', sans-serif;
     font-size: 15px;
-    }
+}
 
 span {
     margin-left: 15px;
@@ -106,19 +101,22 @@ span {
     float: left;
 }
 
-.href-title{
+.href-title {
     color: black;
 }
 
-.href-title:hover{
-    color:#03a9f4;
+.href-title:hover {
+    color: #03a9f4;
     text-decoration: none;
 }
-.read-more{
-    color:#03a9f4;
+
+.read-more {
+    color: #03a9f4;
     text-decoration: underline;
     font-family: 'Muli', sans-serif;
 }
-.read-more:hover{
+
+.read-more:hover {
     color: #4cbdf1;
 }
+

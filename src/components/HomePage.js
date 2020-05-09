@@ -101,7 +101,7 @@ class HomePage extends Component {
                 </a>
                 {/* <h5>{items[j].description}</h5> */}
                 <h5>Golang Constants – In this blog, we will learn about constants in Golang or The Go Programming Language. Let’s see what we are going to cover in this Golang tutorial[…]</h5>
-                <a className="read-more" href={"/blogpage/" + items[j].id}>Read more</a>
+                <a className="read-more" href={"/blogpage/" + items[j].id}>Read more. . .</a>
               </div>
 
 
